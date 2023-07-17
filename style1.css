@@ -46,13 +46,14 @@
 body {
     color: #F0EEEE;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-    font-size: large;
+    font-size: medium;
     background-color: #D66E70;
     width: 39cm;
-    height: 20cm;
+    height: 25cm;
     float: none;
-    text-align: center;
+    text-align: left;
     border: medium solid #F7F1F1;
+    font-weight: lighter;
 }
 #content2 {
     width: 17cm;
@@ -86,14 +87,13 @@ body {
     border-width: medium;
     border-style: solid;
     width: 12cm;
-}
-#Contant {
-    width: 8cm;
+	box-sizing: content-box
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
     font-style: italic;
     border: medium solid #F9F5F5;
     background-color: #D66E70;
     margin-left: 20px;
+	
 }
 #Image {
     text-align: center;
@@ -117,7 +117,6 @@ body {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -143,7 +142,6 @@ body {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
-    margin-top: 10px;
     margin-left: 10px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -175,6 +173,22 @@ body {
     text-align: left;
     color: #FEFEFE;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    list-style-type: square;
 
 
+}
+#menu1 nav a {
+    display: inline-block;
+    color: #F9F3F3;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border-style: solid;
+    box-shadow: 0px 0px;
+    text-transform: capitalize;
+    padding-top: 0px;
+    margin-bottom: 2px;
+    font-size: medium;
+    border-width:thin;
+    margin-top: 2px;
+    top: 1px;
+	border-color: aliceblue
 }
